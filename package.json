@@ -1,0 +1,20 @@
+{
+  "name": "eslint-config",
+  "version": "1.0.0",
+  "description": "My preferences for eslint",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scagood/assertive-eslint-config.git"
+  },
+  "author": "scagood",
+  "license": "UNLICENCED",
+  "bugs": {
+    "url": "https://github.com/scagood/assertive-eslint-config/issues"
+  },
+  "homepage": "https://github.com/scagood/assertive-eslint-config#readme",
+  "dependencies": {
+  },
+  "devDependencies": {}
+}
