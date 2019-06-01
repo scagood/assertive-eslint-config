@@ -6,9 +6,15 @@ const promise = require('./promise');
 const unicorn = require('./unicorn');
 
 module.exports = {
-    env: {node: true},
+    env: {
+        node: true,
+        es6: true,
+    },
+    parserOptions: {
+        ecmaVersion: 2018,
+        sourceType: 'module',
+    },
     extends: ['plugin:unicorn/recommended'],
-    parser: 'babel-eslint',
     plugins: [
         'eslint-comments',
         'no-use-extend-native',
