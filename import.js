@@ -28,7 +28,18 @@ module.exports = {
         'error',
         {commonjs: true},
     ],
-    'import/order': 'error',
+    'import/order': [
+        'error', {
+            groups: [
+                'builtin',
+                'external',
+                [
+                    'internal', 'sibling', 'parent',
+                ],
+                'index',
+            ],
+        },
+    ],
     'import/no-unassigned-import': [
         'error',
         {allow: ['@babel/polyfill', '@babel/register']},
