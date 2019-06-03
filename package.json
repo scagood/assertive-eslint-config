@@ -1,6 +1,6 @@
 {
   "name": "@scagood/eslint-config",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "My preferences for eslint",
   "main": "index.js",
   "scripts": {
