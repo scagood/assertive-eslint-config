@@ -4,6 +4,7 @@ const imports = require('./import');
 const node = require('./node');
 const promise = require('./promise');
 const unicorn = require('./unicorn');
+const es6 = require('./es6');
 
 module.exports = {
     env: {
@@ -27,7 +28,6 @@ module.exports = {
         'log',
         'unicorn',
     ],
-    // TODO: https://eslint.org/docs/rules/#ecmascript-6
     rules: {
         ...stylistic,
         ...comments,
@@ -35,6 +35,7 @@ module.exports = {
         ...node,
         ...promise,
         ...unicorn,
+        ...es6,
         'callback-return': 'error',
         curly: 'error',
         'dot-location': ['error', 'property'],
@@ -42,7 +43,6 @@ module.exports = {
         eqeqeq: 'error',
         'global-require': 'error',
         'handle-callback-err': 'error',
-        'linebreak-style': ['error', 'unix'],
         'no-buffer-constructor': 'error',
         'no-caller': 'error',
         'no-else-return': 'error',
@@ -84,5 +84,15 @@ module.exports = {
             },
         ],
     },
+    overrides: [
+        {
+            files: ['*.test.js', '*.spec.js'],
+            env: {
+                node: true,
+                es6: true,
+                'jest/globals': true,
+            },
+        },
+    ],
     settings: {'import/core-modules': ['electron', 'atom']},
 };

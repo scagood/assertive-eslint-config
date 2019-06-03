@@ -12,4 +12,6 @@ module.exports = {
     semi: ['error', 'always'],
     'semi-style': ['error', 'last'],
     'unicode-bom': ['error', 'never'],
+    'no-div-regex': 'error',
+    'no-control-regex': 'error',
 };

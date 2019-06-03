@@ -2,7 +2,7 @@ const layout = require('./style-layout.js');
 const characters = require('./style-characters.js');
 
 module.exports = {
-    'linebreak-style': ['error', 'unix'],
+    'linebreak-style': 'off',
     'no-trailing-spaces': 'error',
     'dot-notation': 'error',
     eqeqeq: 'error',
@@ -63,7 +63,6 @@ module.exports = {
     ],
     'max-nested-callbacks': ['error', 3],
     'max-params': ['error', 4],
-    // 'max-statements': ['error', 8],
     'max-statements-per-line': 'error',
     'new-parens': 'error',
     'no-array-constructor': 'error',

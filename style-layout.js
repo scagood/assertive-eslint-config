@@ -1,4 +1,3 @@
-// TODO: https://eslint.org/docs/rules/padding-line-between-statements
 module.exports = {
     curly: 'error',
     'brace-style': 'error',
