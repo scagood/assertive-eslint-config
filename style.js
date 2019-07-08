@@ -41,7 +41,7 @@ module.exports = {
         'error',
         {
             code: 90,
-            comments: 70,
+            comments: 90,
             ignoreUrls: true,
             ignoreRegExpLiterals: true,
             ignoreStrings: true,
