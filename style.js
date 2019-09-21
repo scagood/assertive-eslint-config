@@ -52,6 +52,7 @@ module.exports = {
         {
             max: 120,
             skipBlankLines: true,
+            skipComments: true,
         },
     ],
     'max-lines-per-function': [
@@ -59,6 +60,7 @@ module.exports = {
         {
             max: 60,
             skipBlankLines: true,
+            skipComments: true,
         },
     ],
     'max-nested-callbacks': ['error', 3],
