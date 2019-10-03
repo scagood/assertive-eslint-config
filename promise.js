@@ -1,5 +1,8 @@
 module.exports = {
-    'promise/catch-or-return': 'error',
+    'promise/catch-or-return': [
+        'error',
+        {allowFinally: true},
+    ],
     'promise/no-new-statics': 'error',
     'promise/no-return-in-finally': 'error',
     'promise/no-return-wrap': [

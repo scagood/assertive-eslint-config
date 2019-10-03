@@ -34,7 +34,9 @@ module.exports = {
                 'builtin',
                 'external',
                 [
-                    'internal', 'sibling', 'parent',
+                    'internal',
+                    'sibling',
+                    'parent',
                 ],
                 'index',
             ],

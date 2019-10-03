@@ -6,6 +6,7 @@ const promise = require('./promise');
 const unicorn = require('./unicorn');
 const es6 = require('./es6');
 
+/* eslint-disable unicorn/prevent-abbreviations */
 module.exports = {
     env: {
         node: true,
@@ -97,3 +98,4 @@ module.exports = {
     ],
     settings: {'import/core-modules': ['electron', 'atom']},
 };
+/* eslint-enable unicorn/prevent-abbreviations */
