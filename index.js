@@ -3,6 +3,7 @@ const comments = require('./comments');
 const imports = require('./import');
 const node = require('./node');
 const promise = require('./promise');
+const jest = require('./jest');
 const unicorn = require('./unicorn');
 const es6 = require('./es6');
 
@@ -37,6 +38,7 @@ module.exports = {
         ...promise,
         ...unicorn,
         ...es6,
+        ...jest,
         'callback-return': 'error',
         curly: 'error',
         'dot-location': ['error', 'property'],
