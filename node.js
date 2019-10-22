@@ -1,9 +1,5 @@
 module.exports = {
-    'node/file-extension-in-import': [
-        'error',
-        'always',
-        {'.js': 'never'},
-    ],
+    'node/file-extension-in-import': 'off',
     'node/no-deprecated-api': 'error',
     'node/no-missing-import': 'error',
     'node/no-missing-require': 'error',

@@ -5,7 +5,7 @@ module.exports = {
     'unicorn/escape-case': 'error',
     'unicorn/explicit-length-check': 'error',
     'unicorn/filename-case': 'error',
-    'unicorn/import-index': 'error',
+    'unicorn/import-index': 'warn',
     'unicorn/new-for-builtins': 'error',
     'unicorn/no-abusive-eslint-disable': 'error',
     'unicorn/no-array-instanceof': 'error',

@@ -3,7 +3,7 @@ module.exports = {
     'import/extensions': [
         'error',
         {
-            js: 'never',
+            js: 'always',
             json: 'always',
         },
     ],
