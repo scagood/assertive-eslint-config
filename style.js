@@ -41,16 +41,17 @@ module.exports = {
         'error',
         {
             code: 90,
-            comments: 90,
+            comments: 130,
             ignoreUrls: true,
             ignoreRegExpLiterals: true,
             ignoreStrings: true,
         },
     ],
+    complexity: ['error', 15],
     'max-lines': [
-        'error',
+        'warn',
         {
-            max: 120,
+            max: 180,
             skipBlankLines: true,
             skipComments: true,
         },
