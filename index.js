@@ -90,7 +90,11 @@ module.exports = {
     },
     overrides: [
         {
-            files: ['*.test.js', '*.spec.js'],
+            files: [
+                '__mocks__/**.js',
+                '*.test.js',
+                '*.spec.js'
+            ],
             env: {
                 node: true,
                 es6: true,
