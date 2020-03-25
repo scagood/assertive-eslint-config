@@ -44,6 +44,13 @@ module.exports = {
     ],
     'import/no-unassigned-import': [
         'error',
-        {allow: ['@babel/polyfill', '@babel/register']},
+        {
+            allow: [
+                '@babel/polyfill',
+                '@babel/register',
+                'relative-time-parser',
+                'moment-timezone'
+            ]
+        },
     ],
 };
