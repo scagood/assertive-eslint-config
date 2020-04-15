@@ -20,7 +20,7 @@ module.exports = {
     'no-return-await': 'error',
     'no-useless-return': 'error',
     'prefer-promise-reject-errors': 'error',
-    'require-await': 'error',
+    'require-await': 'off',
     'no-undefined': 'error',
 
     'func-name-matching': ['error', 'never'],

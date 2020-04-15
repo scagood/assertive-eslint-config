@@ -7,7 +7,6 @@ const jest = require('./jest');
 const unicorn = require('./unicorn');
 const es6 = require('./es6');
 
-/* eslint-disable unicorn/prevent-abbreviations */
 module.exports = {
     env: {
         node: true,
@@ -75,7 +74,6 @@ module.exports = {
         'no-void': 'error',
         'prefer-promise-reject-errors': 'error',
         radix: 'error',
-        'require-await': 'error',
 
         'no-undef': 'error',
         'no-use-before-define': 'error',
@@ -91,17 +89,22 @@ module.exports = {
     overrides: [
         {
             files: [
-                '__mocks__/**.js',
-                '*.test.js',
-                '*.spec.js'
+                '__mocks__/*.js',
+                '__mocks__/*/*.js',
             ],
-            env: {
-                node: true,
-                es6: true,
-                'jest/globals': true,
+            globals: {jest: true},
+        },
+        {
+            files: [
+                '*.test.js',
+                '*.spec.js',
+            ],
+            env: {'jest/globals': true},
+            rules: {
+                'max-lines': 'off',
+                'max-lines-per-function': 'off',
             },
         },
     ],
     settings: {'import/core-modules': ['electron', 'atom']},
 };
-/* eslint-enable unicorn/prevent-abbreviations */

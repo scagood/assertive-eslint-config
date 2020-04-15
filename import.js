@@ -24,10 +24,7 @@ module.exports = {
     'import/no-mutable-exports': 'error',
     'import/no-named-as-default-member': 'error',
     'import/no-named-as-default': 'error',
-    'import/no-unresolved': [
-        'error',
-        {commonjs: true},
-    ],
+    'import/no-unresolved': 'off',
     'import/order': [
         'error', {
             groups: [
@@ -49,8 +46,8 @@ module.exports = {
                 '@babel/polyfill',
                 '@babel/register',
                 'relative-time-parser',
-                'moment-timezone'
-            ]
+                'moment-timezone',
+            ],
         },
     ],
 };
