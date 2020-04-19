@@ -1,3 +1,4 @@
+const plugins = require('./plugin-alias.js');
 const stylistic = require('./style');
 const comments = require('./comments');
 const imports = require('./import');
@@ -17,18 +18,7 @@ module.exports = {
         sourceType: 'module',
     },
     extends: ['plugin:unicorn/recommended'],
-    plugins: [
-        'eslint-comments',
-        'no-use-extend-native',
-        'promise',
-        'import',
-        'node',
-        'jest',
-        'no-unsafe-regex',
-        'optimize-regex',
-        'log',
-        'unicorn',
-    ],
+    plugins: plugins,
     rules: {
         ...stylistic,
         ...comments,
