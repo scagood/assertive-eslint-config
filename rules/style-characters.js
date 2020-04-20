@@ -14,4 +14,7 @@ module.exports = {
     'unicode-bom': ['error', 'never'],
     'no-div-regex': 'error',
     'no-control-regex': 'error',
+
+    'dot-location': ['error', 'property'],
+    'dot-notation': 'error',
 };

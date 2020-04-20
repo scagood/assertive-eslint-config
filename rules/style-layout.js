@@ -2,6 +2,7 @@ module.exports = {
     curly: 'error',
     'brace-style': 'error',
     'block-spacing': 'error',
+    'no-trailing-spaces': 'error',
 
     indent: [
         'error',

@@ -2,7 +2,7 @@
   "name": "@scagood/eslint-config",
   "version": "3.0.0",
   "description": "My preferences for eslint",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "lint": "eslint ."
   },
@@ -21,15 +21,19 @@
   },
   "dependencies": {
     "eslint": "^6.8.0",
+    "eslint-plugin-array-func": "^3.1.5",
     "eslint-plugin-eslint-comments": "^3.1.2",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-jest": "^23.8.2",
     "eslint-plugin-log": "^1.2.3",
+    "eslint-plugin-no-constructor-bind": "^1.2.8",
     "eslint-plugin-no-unsafe-regex": "^1.0.0",
     "eslint-plugin-no-use-extend-native": "^0.5.0",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-optimize-regex": "^1.1.7",
+    "eslint-plugin-optimize-regex": "^1.2.0",
     "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-sonarjs": "^0.5.0",
+    "eslint-plugin-switch-case": "^1.1.2",
     "eslint-plugin-unicorn": "^18.0.1",
     "module-alias": "^2.2.2"
   }
