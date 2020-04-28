@@ -54,6 +54,7 @@ module.exports = {
             rules: {
                 'max-lines': 'off',
                 'max-lines-per-function': 'off',
+                'import/no-webpack-loader-syntax': 'off',
             },
         },
     ],
