@@ -3,7 +3,7 @@ function findDuplicates(array) {
     const result = [];
 
     array.forEach(item => {
-        if (!object[item]) {
+        if (typeof object[item] === 'undefined') {
             object[item] = 0;
         }
         object[item] += 1;
