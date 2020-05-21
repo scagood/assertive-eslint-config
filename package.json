@@ -4,7 +4,9 @@
   "description": "My preferences for eslint",
   "main": "src/index.js",
   "scripts": {
-    "lint": "eslint ."
+    "postversion": "npm publish",
+    "postpublish": "git push origin --all; git push origin --tags",
+    "preversion": "eslint ."
   },
   "repository": {
     "type": "git",
