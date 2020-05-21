@@ -13,11 +13,14 @@ module.exports = {
 
     'line-comment-position': [
         'error',
-        {position: 'above'},
+        {
+            position: 'above',
+            ignorePattern: '^\\?$',
+        },
     ],
     'multiline-comment-style': ['error', 'starred-block'],
 
-    'no-inline-comments': 'error',
+    'no-inline-comments': 'off',
     'no-warning-comments': [
         'warn',
         {

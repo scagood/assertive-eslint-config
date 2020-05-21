@@ -1,4 +1,5 @@
-// TODO: wrap-iife,
-// 'no-sequences': 'error',
-// TODO: https://eslint.org/docs/rules/padding-line-between-statements
+/*
+ * 'no-sequences': 'error',
+ * https://eslint.org/docs/rules/padding-line-between-statements
+ */
 module.exports = require('./src');

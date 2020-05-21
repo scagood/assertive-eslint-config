@@ -87,7 +87,7 @@ module.exports = {
     ],
     'space-in-parens': ['error', 'never'],
     'space-infix-ops': 'error',
-    'spaced-comment': ['error', 'always'],
+    'spaced-comment': ['error', 'always', {markers: ['?']}],
     'switch-colon-spacing': 'error',
     'template-tag-spacing': 'error',
 };

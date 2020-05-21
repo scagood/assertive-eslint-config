@@ -86,7 +86,6 @@ module.exports = {
     'operator-assignment': ['error', 'always'],
 
     yoda: 'error',
-    'custom-rules/no-unary-not': 'error',
 
     'prefer-object-spread': 'error',
     ...layout,

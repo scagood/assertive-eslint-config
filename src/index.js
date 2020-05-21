@@ -9,6 +9,7 @@ const node = require('../rules/node');
 const promise = require('../rules/promise');
 const smells = require('../rules/smells');
 const stylistic = require('../rules/style');
+const syntax = require('../rules/syntax');
 const unicorn = require('../rules/unicorn');
 
 module.exports = {
@@ -35,6 +36,7 @@ module.exports = {
         promise,
         smells,
         stylistic,
+        syntax,
         unicorn,
     ),
     overrides: [

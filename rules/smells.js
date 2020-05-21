@@ -9,6 +9,8 @@ module.exports = {
 
     radix: 'error',
 
+    'wrap-iife': ['error', 'inside', {functionPrototypeMethods: true}],
+
     'no-buffer-constructor': 'error',
     'no-eval': 'error',
     'no-extend-native': 'error',

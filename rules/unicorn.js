@@ -19,6 +19,7 @@ module.exports = {
     'unicorn/no-unsafe-regex': 'off',
     'unicorn/no-unused-properties': 'off',
     'unicorn/no-zero-fractions': 'error',
+    'unicorn/no-null': 'off',
     'unicorn/number-literal-case': 'error',
     'unicorn/prefer-add-event-listener': 'error',
     'unicorn/prefer-exponentiation-operator': 'error',
