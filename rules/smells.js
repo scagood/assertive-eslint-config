@@ -37,6 +37,7 @@ module.exports = {
     'no-path-concat': 'error',
     'no-undef': 'error',
     'no-use-before-define': 'error',
+    'no-extra-semi': 'error',
 
     'no-constructor-bind/no-constructor-bind': 'error',
     'no-constructor-bind/no-constructor-state': 'error',
