@@ -25,7 +25,7 @@
     "eslint": "^7.6.0"
   },
   "dependencies": {
-    "eslint-plugin-array-func": "^3.1.6",
+    "eslint-plugin-array-func": "^3.1.7",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-jest": "^23.20.0",
     "eslint-plugin-import": "^2.22.0"
