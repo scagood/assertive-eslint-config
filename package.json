@@ -29,7 +29,7 @@
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jest": "^23.13.2",
-    "eslint-plugin-log": "^1.2.3",
+    "eslint-plugin-log": "^1.2.4",
     "eslint-plugin-no-constructor-bind": "^2.0.1",
     "eslint-plugin-no-unsafe-regex": "^1.0.0",
     "eslint-plugin-no-use-extend-native": "^0.5.0",
